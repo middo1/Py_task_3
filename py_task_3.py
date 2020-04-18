@@ -28,7 +28,7 @@ while True:
                 tries -= 1
                 guess = int(input("Enter your guess from the range of 1 to " + str(lim - 1) + ": "))
                 if tries == 0 and res == False:
-                    print("You have used up your chances to guess")
+                    print("You have used up your chances to guess GAME OVER")
                     break
         break
     elif level == "medium" :
@@ -45,7 +45,7 @@ while True:
                 tries -= 1
                 guess = int(input("Enter your guess from the range of 1 to " + str(lim - 1) + ": "))
                 if tries == 0 and res == False:
-                    print("You have used up your chances to guess")
+                    print("You have used up your chances to guess GAME OVER")
                     break
         break
     elif level == "hard" :
@@ -62,7 +62,7 @@ while True:
                 tries -= 1
                 guess = int(input("Enter your guess from the range of 1 to " + str(lim - 1) + ": "))
                 if tries == 0 and res == False:
-                    print("You have used up your chances to guess")
+                    print("You have used up your chances to guess GAME OVER")
                     break
         break
     else:
